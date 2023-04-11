@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Rozdział 3.</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+  <body>
+  	<div class="container">
+  		<!-- Nagłówek strony -->
+  		<div class="page-header">
+			  <h1>Rozdział 3. <small>Pierwsze spotkanie z komponentami Bootstrapa</small></h1>
+		</div>
+		<hr>
+
+		<!-- Panel -->
+		<div class="panel panel-default">
+			  <div class="panel-heading">
+			  	UWAGA
+			  </div>
+			  <div class="panel-body">
+			    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+			  </div>
+			  <div class="panel-footer">
+			  	<a href="#" class="btn btn-danger btn-sm">Zgoda</a> <a href="#" class="btn btn-default btn-sm">Odmowa</a>
+			  </div>
+		</div>
+		<hr><hr><hr><hr><hr>
+
+		<!-- Przykład obiektu mediów -->
+		<div class="media">
+	    	<a class="pull-left" href="#">
+	    		<img class="media-object" src="http://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2013/12/fazle-96x96.png" alt="Syed Fazle Rahman">
+	    	</a>
+	    	<div class="media-body">
+	    		<h4 class="media-heading">Fantastyczna robota!</h4>
+	    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+	    		
+	    		<!-- Drugi obiekt mediów -->
+			    <div class="media">
+	            	<a class="pull-left" href="#">
+	            		<img class="media-object" src="http://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2013/12/fazle-96x96.png" alt="Syed Fazle Rahman">
+	            	</a>
+	            	<div class="media-body">
+	            		<h4 class="media-heading">Fantastyczna robota!</h4>
+	            		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+	            	</div>
+	            </div>
+	            
+	    	</div>
+	    </div>
+	    <hr>
+
+	    <!-- Przykład miniatur -->
+	    <div class="row">
+	    	<div class="col-xs-3">
+	    		<div class="thumbnail">
+	    			<img src="images/sitepoint.png">
+	    			<div class="caption">
+			    		<h3>SitePoint</h3>
+			    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			    		<p><a href="#" class="btn btn-primary">Więcej</a></p>
+			    	</div>
+	    		</div>
+	    	</div>
+	    	<div class="col-xs-3">
+	    		<div href="#" class="thumbnail">
+	    			<img src="images/apple.png">
+	    			<div class="caption">
+			    		<h3>Apple</h3>
+			    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			    		<p><a href="#" class="btn btn-primary">Więcej</a></p>
+			    	</div>
+	    		</div>
+	    	</div>
+	    	<div class="col-xs-3">
+	    		<div href="#" class="thumbnail">
+	    			<img src="images/google.png">
+	    			<div class="caption">
+			    		<h3>Google</h3>
+			    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			    		<p><a href="#" class="btn btn-primary">Więcej</a></p>
+			    	</div>
+	    		</div>
+	    	</div>
+	    	<div class="col-xs-3">
+	    		<div class="thumbnail">
+	    			<img src="images/microsoft.png">
+	    			<div class="caption">
+			    		<h3>Microsoft</h3>
+			    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			    		<p><a href="#" class="btn btn-primary">Więcej</a></p>
+			    	</div>
+	    		</div>
+	    	</div>
+	    </div>
+	    <hr>
+
+
+
+
+		
+	    <!-- Przykład prostej listy -->
+	    <div class="row">
+	    	<div class="col-xs-3">
+		    	<ul class="list-group">
+					<li class="list-group-item">Odebrane <span class="badge">14</span></li>
+					<li class="list-group-item">Wysłane <span class="badge">4</span></li>
+					<li class="list-group-item">Szkice <span class="badge">7</span></li>
+					<li class="list-group-item">Usunięte <span class="badge">24</span></li>
+					<li class="list-group-item">Niechciane <span class="badge">134</span></li>
+				</ul>
+		    </div>
+	    </div>
+	    <hr>
+
+	    <!-- Przykład złożonej listy -->
+	    <div class="row">
+	    	<div class="col-xs-4">
+	    		<div class="list-group">
+	    			<a href="#" class="list-group-item active">
+				        <h4 class="list-group-item-heading">Główny punkt</h4>
+				        <p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				    </a>
+				    <a href="#" class="list-group-item">
+				        <h4 class="list-group-item-heading">Główny punkt</h4>
+				        <p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				    </a>
+				    <a href="#" class="list-group-item">
+				        <h4 class="list-group-item-heading">Główny punkt</h4>
+				        <p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				    </a>
+				    <a href="#" class="list-group-item">
+				        <h4 class="list-group-item-heading">Główny punkt</h4>
+				        <p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				    </a>
+	    		</div>
+	    	</div>
+	    </div>
+	    <hr>
+
+	    <!-- Zakładki nawigacyjne -->
+	    <ul class="nav nav-tabs">
+			<li class="active"><a href="#">O nas</a></li>
+			<li><a href="#">Nowości</a></li>
+			<li><a href="#">Ciekawe strony</a></li>
+	    </ul>
+	    <hr>
+
+	    <!-- Przyciski nawigacyjne  -->
+	    <ul class="nav nav-pils">
+			<li class="active"><a href="#">O nas</a></li>
+			<li><a href="#">Nowości</a></li>
+			<li><a href="#">Ciekawe strony</a></li>
+	    </ul>
+	    <hr>
+
+	    <!-- Kod pełnego paska nawigacji -->
+	    <div class="navbar navbar-default">
+	        <div class="container-fluid">
+	            <div class="navbar-header">
+				  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar-content">
+				    <span class="icon-bar"></span>
+				    <span class="icon-bar"></span>
+				    <span class="icon-bar"></span>
+				  </button>
+				  <a class="navbar-brand" href="#">Sitepoint</a>
+				</div>
+				
+				<div class="collapse navbar-collapse" id="mynavbar-content">
+				    <ul class="nav navbar-nav">
+				  		<li class="active"><a href="#">Strona główna</a></li>
+				  		<!-- Kod listy rozwijanej -->
+				  		<li class="dropdown">
+					        <a href="#" class="dropdown-toggle" data-toggle="dropdown">O nas <b class="caret"></b></a>
+					        <ul class="dropdown-menu">
+					            <li><a href="#">Zarząd</a></li>
+					            <li><a href="#">Zespół programistów</a></li>
+					            <li><a href="#">Zespół projektantów</a></li>
+					            <li class="divider"></li>
+					            <li><a href="#">Inwestorzy</a></li>
+					            <li><a href="#">Udziałowcy</a></li>
+					        </ul>
+					    </li>
+				  		<li><a href="#">Cennik</a></li>
+				  		<li><a href="#">Kontakt</a></li>
+				  		<li><a href="#">Napisz do nas</a></li>
+				  	</ul>
+				</div>
+	        </div>
+	    </div>
+	    <hr>
+
+	    <!-- Nawigacja okruszkowa -->
+	    <ol class="breadcrumb">
+	      <li><a href="#">Strona główna</a></li>
+	      <li><a href="#">O nas</a></li>
+	      <li class="active">O autorze</li>
+	    </ol>
+	    <hr>
+
+	    <!-- Przykład etykiety -->
+	    <h3>Bootstrap - szybki start! <span class="label label-default">Nowość</span></h3>
+	    <hr>
+
+	    <!-- Prosty przycisk -->
+	    <a href="#" class="btn btn-primary">Kliknij mnie</a>
+	    <hr>
+
+	    <!-- Warianty przycisków -->
+	    <button type="button" class="btn btn-primary btn-lg">Duży przycisk</button>
+	    <button type="button" class="btn btn-primary">Domyślny przycisk</button>
+	    <button type="button" class="btn btn-primary btn-sm">Mały przycisk</button>
+	    <button type="button" class="btn btn-primary btn-xs">Bardzo mały przycisk</button>
+	    <hr>
+
+	    <!-- Przykład glifikony -->
+	    <h1><span class="glyphicon glyphicon-heart"></span></h1>
+	    <hr>
+
+	    <!-- Przykład ramki -->
+	    <div class="well">
+	      	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	    </div>
+	    <hr>
+	    <!-- Przykład prostej odznaki -->
+	    <a href="#" class="btn btn-primary btn-lg">Odebrane <span class="badge">123</span></a>
+	    <hr>
+	    <!-- Prosty formularz -->
+	    <div class="row">
+	    	<div class="col-xs-4">
+	    		<form class="form">
+			        <div class="form-group">
+			            <label for="nameField">Imię</label>
+			            <input type="text" class="form-control" id="nameField" placeholder="Twoje imię" />
+			        </div>
+			    
+			        <div class="form-group">
+			            <label for="emailField">E-mail</label>
+			            <input type="email" class="form-control" id="emailField" placeholder="Twój adres e-mail" />
+			        </div>
+			    
+			        <div class="form-group">
+			            <label for="phoneField">Telefon</label>
+			            <input type="text" class="form-control" id="phoneField" placeholder="Twój numer telefonu" />
+			        </div>
+			    
+			        <div class="form-group">
+			            <label for="descField">Opis</label>
+			            <textarea type="text" class="form-control" id="descField" placeholder="Twoje uwagi"></textarea>
+			        </div>
+			        
+			        <button type="submit" class="btn btn-primary">Wyślij</button> <button type="reset" class="btn btn-default">Wyczyść</button>
+			    </form>
+	    	</div>
+	    </div>
+	    <hr>
+
+	    <!-- Poziomy formularz -->
+	    <div class="row">
+	    	<div class="col-xs-6">
+	    		<form class="form-horizontal">
+			    	<div class="form-group">
+			    		<label for="nameField" class="col-xs-2">Imię</label>
+			    		<div class="col-xs-10">
+			    			<input type="text" class="form-control" id="nameField" placeholder="Twoje imię" />
+			    		</div>
+			    	</div>
+			    
+			    	<div class="form-group">
+			    		<label for="emailField" class="col-xs-2">E-mail</label>
+			    		<div class="col-xs-10">
+			    			<input type="email" class="form-control" id="emailField" placeholder="Twój e-mail" />
+			    		</div>
+			    	</div>
+			    
+			    	<div class="form-group">
+			    		<label for="phoneField" class="col-xs-2">Telefon</label>
+			    		<div class="col-xs-10">
+			    			<input type="text" class="form-control" id="phoneField" placeholder="Twój numer telefonu" />
+			    		</div>
+			    	</div>
+			    
+			    	<div class="form-group">
+			    		<label for="descField" class="col-xs-2">Opis</label>
+			    		<div class="col-xs-10">
+			    			<textarea type="text" class="form-control" id="descField" placeholder="Twoje uwagi"></textarea>
+			    		</div>
+			    	</div>
+			    	
+			    	<div class="col-xs-10 col-xs-offset-2">
+			    		<button type="submit" class="btn btn-primary">Wyślij</button> <button type="reset" class="btn btn-default">Wyczyść</button>
+			    	</div>
+			    	
+			    </form>
+	    	</div>
+	    </div>
+	    <hr>
+
+	    <!-- Formularz w jednej linii -->
+	    <div class="well well-sm">
+	        <form class="form-inline">
+	            <div class="form-group">
+	                <input type="email" class="form-control" id="emailField" placeholder="Podaj adres e-mail">
+	            </div>
+	            
+	            <div class="form-group">
+	                <input type="password" class="form-control" id="passwordField" placeholder="Podaj hasło">
+	            </div>
+	            
+	            <div class="checkbox">
+	                <label>
+	                  <input type="checkbox"> Zapamiętaj mnie
+	                </label>
+	            </div>
+	            
+	            <button type="submit" class="btn btn-primary">Rejestracja</button>
+	        </form>
+	    </div>
+  	</div>
+
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.js"></script>
+  </body>
+</html>
